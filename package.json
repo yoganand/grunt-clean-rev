@@ -1,0 +1,43 @@
+{
+  "name": "grunt-clean-rev",
+  "description": "Removes previously revved files ",
+  "version": "0.1.0",
+  "homepage": "https://github.com/yoganand/grunt-clean-rev",
+  "author": {
+    "name": "Yoganand",
+    "email": "yoganand.a@tivamo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yoganand/grunt-clean-rev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoganand/grunt-clean-rev/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/yoganand/grunt-clean-rev/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "rimraf": "^2.2.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5",
+    "each-async": "^1.1.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
